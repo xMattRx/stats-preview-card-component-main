@@ -34,7 +34,9 @@ body {
 
 
                 @media only screen and (max-width: 1024px) {
-                    padding: 40px 20px;
+                    border-top-left-radius: 0px;
+                    border-bottom-right-radius: 6px;
+                    padding: 33px 20px;
                     align-items: center;
                     justify-content: center;
                 }
@@ -69,6 +71,7 @@ body {
                     margin-bottom: 70px;
 
                     @media only screen and (max-width: 1024px) {
+                        margin-bottom: 41px;
                         max-width: 262px;
                         text-align: center;
                     }
@@ -114,13 +117,22 @@ body {
                 border-bottom-right-radius: 6px;
                 position: relative;
 
-                img {
-                    border-top-right-radius: 6px;
-                    border-bottom-right-radius: 6px;
-                    height: 100%;
-                    margin: 0;
-                    padding: 0;
-                    width: 100%;
+                picture {
+                    img {
+                        border-top-right-radius: 6px;
+                        border-bottom-right-radius: 6px;
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+
+                        @media only screen and (max-width: 1024px) {
+                            border-top-left-radius: 6px;
+                            border-bottom-right-radius: 0px;
+                            max-width: 410px;
+                            width: 100%;
+                        }
+                    }
                 }
 
                 .curtain {

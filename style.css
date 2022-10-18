@@ -34,7 +34,9 @@ body .container .container-card .container-card-left {
 }
 @media only screen and (max-width: 1024px) {
   body .container .container-card .container-card-left {
-    padding: 40px 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 6px;
+    padding: 33px 20px;
     align-items: center;
     justify-content: center;
   }
@@ -67,6 +69,7 @@ body .container .container-card .container-card-left .container-card-left-paragr
 }
 @media only screen and (max-width: 1024px) {
   body .container .container-card .container-card-left .container-card-left-paragraph {
+    margin-bottom: 41px;
     max-width: 262px;
     text-align: center;
   }
@@ -107,13 +110,21 @@ body .container .container-card .container-card-right {
   border-bottom-right-radius: 6px;
   position: relative;
 }
-body .container .container-card .container-card-right img {
+body .container .container-card .container-card-right picture img {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  body .container .container-card .container-card-right picture img {
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 0px;
+    max-width: 410px;
+    width: 100%;
+  }
 }
 body .container .container-card .container-card-right .curtain {
   background: hsla(278deg, 75%, 37%, 0.639);
