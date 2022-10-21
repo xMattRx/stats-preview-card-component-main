@@ -12,7 +12,7 @@ body .container {
   color: white;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 body .container .container-card {
   background-color: hsl(244deg, 38%, 16%);
@@ -23,6 +23,7 @@ body .container .container-card {
 @media only screen and (max-width: 1024px) {
   body .container .container-card {
     flex-direction: column-reverse;
+    justify-content: center;
   }
 }
 body .container .container-card .container-card-left {
