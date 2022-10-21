@@ -128,8 +128,10 @@ body .container .container-card .container-card-right picture img {
   }
 }
 body .container .container-card .container-card-right .curtain {
-  background: hsla(278deg, 75%, 37%, 0.639);
+  background-color: hsl(277deg, 64%, 61%);
   height: 100%;
+  mix-blend-mode: multiply;
+  opacity: 80%;
   position: absolute;
   top: 0px;
   width: 100%;
