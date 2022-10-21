@@ -6,6 +6,12 @@
 
 body {
   background-color: hsl(233deg, 47%, 7%);
+  height: 100vh;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    height: auto;
+  }
 }
 body .container {
   align-items: center;
